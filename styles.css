@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+    .quiz-container {
+      font-family: Gilroy, sans-serif;
+      margin: 20px;
+      max-width: 600px;
+    }
+
+    /* Styling for the question */
+    .question {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+		font-weight: bold
+    }
+
+    /* Styling for the blockquote */
+    blockquote {
+      max-width: 600px;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 8px solid green;
+      background-color: #f8fffe;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Styling for the options */
+    .options {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Styling for each option label */
+    label {
+      font-size: 1em;
+      margin: 5px 0;
+      cursor: pointer;
+    }
